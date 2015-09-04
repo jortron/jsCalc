@@ -1,30 +1,49 @@
 <html>
 	<head>
-
+		<title>Pocket Computer</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" href="main.css">
+		<script src="jquery-2.1.4.js"></script>
+		<script src="main.js"></script>
 	</head>
 	<body>
-		<form name="calc">
-		<input type="text"   <d>name</d>="input" size="16">
-		<br>
-		<input type="button" name="one"   value="1">
-		<input type="button" name="two"   value="2">
-		<input type="button" name="three" value="3">
-		<input type="button" name="plus"  value="+">
-		<br>
-		<input type="button" name="four"  value="4">
-		<input type="button" name="five"  value="5">
-		<input type="button" name="six"   value="6">
-		<input type="button" name="minus" value="-">
-		<br>
-		<input type="button" name="seven" value="7">
-		<input type="button" name="eight" value="8">
-		<input type="button" name="nine"  value="9">
-		<input type="button" name="" value="x">
-		<br>
-		<input type="button" name="clear" value="c">
-		<input type="button" name="zero"  value="0">
-		<input type="button" name="equals"  value="=">
-		<input type="button" name="div"   value="/">
+		<form id="calc">
+			<input type="text"   id="input">
+			
+			<div class="number">
+				<input type="button" id="one"   value="1">
+				<input type="button" id="two"   value="2">
+				<input type="button" id="three" value="3">
+			</div>
+			<input type="button" id="plus"  value="+">
+			<br>
+			<div class="number">
+				<input type="button" id="four"  value="4">
+				<input type="button" id="five"  value="5">
+				<input type="button" id="six"   value="6">
+			</div>
+			<input type="button" id="minus" value="-">
+			<br>
+			<div class="number">
+				<input type="button" id="seven" value="7">
+				<input type="button" id="eight" value="8">
+				<input type="button" id="nine"  value="9">
+			</div>
+			
+			<input type="button" id="" value="x">
+			
+			<br>
+			<div class="operator">
+				<input type="button" id="clear" value="c">
+			</div>
+			<div class="number">
+				<input type="button" id="zero"  value="0">
+			</div>
+			<div class="operator">
+			<input type="button" id="equals"  value="=">
+			<input type="button" id="div"   value="/">
+			</div>
 		</form>
 	</body>
 </html>
