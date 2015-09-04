@@ -8,3 +8,15 @@
 	
 
 }
+
+.button {
+  color: black;
+  background: #BDBDBD;
+  font-weight: bold;
+  border: 1px solid #900;
+}
+ 
+.button:hover {
+  color: #FFF;
+  background: #900;
+}
