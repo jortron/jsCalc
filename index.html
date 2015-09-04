@@ -8,28 +8,31 @@
 		<script src="main.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div id="header">
-			</div>
-
-			<div id="inputs">
-				<form>
-					 <input id="first" type="text" name="first" placeholder="let me holler"><br>
-					 <input id="plus" type="button" value="+">
-					 <input id="minus" type="button" value="-">
-					 <input id="divide" type="button" value="/">
-					 <input id="multiply" type="button" value="x"><br>
-					 <input id="second" type="text" name="second" placeholder="at them digits"><br>
-				    
-					
+	<container>
+		<div class="main-container">
+			<div class="Calc-box">
+				<form id="form">
+					<div id="inputs">
+						<input id="first" type="text" name="first" placeholder="Enter a number"><br>
+						<input id="second" type="text" name="second" placeholder="Enter another number"><br>
+					</div>
+					<div id="buttons">
+						<input class="button" id="plus" type="button" value="+">
+						<input class="button" id="minus" type="button" value="-">
+						<input class="button" id="divide" type="button" value="/">
+						<input class="button" id="multiply" type="button" value="x">
+					</div>
 				</form>
-
-
 			</div>
-
-			
+		</div>
+		<div class="ans-container">
+			</div>
+			<div id="answer">
 				<h1 id="result"></h1>
-
-			
+			</div>
+				<ul id="past-list">					
+				</ul>
+		</div>	
+	</div>
 	</body>
 </html>
